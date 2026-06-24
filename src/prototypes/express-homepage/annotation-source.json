@@ -1,0 +1,418 @@
+{
+  "documentVersion": 1,
+  "format": "axhub-annotation-source",
+  "data": {
+    "version": 2,
+    "prototypeName": "express-homepage",
+    "pageId": "home",
+    "updatedAt": 1782279389377,
+    "nodes": [
+      {
+        "id": "home-header",
+        "index": 1,
+        "title": "首页导航栏",
+        "pageId": "home",
+        "locator": {
+          "selectors": [
+            "[data-annotation-id=\"home-header\"]"
+          ],
+          "fingerprint": "header|data-annotation-id=home-header",
+          "path": []
+        },
+        "aiPrompt": "快递官网首页的全局顶部导航栏，包含 Logo、四个导航链接和两个 CTA 按钮。",
+        "annotationText": "顶部导航栏：左侧为品牌 Logo 和名称，中间为四个锚点导航，右侧为两个转化入口。",
+        "hasMarkdown": false,
+        "color": "#1677ff",
+        "images": [],
+        "createdAt": 1782279389377,
+        "updatedAt": 1782279389377
+      },
+      {
+        "id": "home-hero",
+        "index": 2,
+        "title": "首屏 Hero 区",
+        "pageId": "home",
+        "locator": {
+          "selectors": [
+            "[data-annotation-id=\"home-hero\"]"
+          ],
+          "fingerprint": "section|data-annotation-id=home-hero",
+          "path": []
+        },
+        "aiPrompt": "快递官网首页的首屏 Hero 区：左侧文案+卖点+CTA，右侧是在线寄件表单和价格时效查询双面板。",
+        "annotationText": "首屏 Hero：左侧品牌文案和卖点标签，右侧双面板（在线寄件表单 + 价格时效查询）。",
+        "hasMarkdown": true,
+        "color": "#1677ff",
+        "images": [],
+        "createdAt": 1782279389377,
+        "updatedAt": 1782279389377
+      },
+      {
+        "id": "ship-card",
+        "index": 3,
+        "title": "在线寄件表单",
+        "pageId": "home",
+        "locator": {
+          "selectors": [
+            "[data-annotation-id=\"ship-card\"]"
+          ],
+          "fingerprint": "section|data-annotation-id=ship-card",
+          "path": []
+        },
+        "aiPrompt": "在线寄件面板：包含用户类型切换、寄件城市、收件城市、包裹类型、预约时间输入和预估费用展示。",
+        "annotationText": "在线寄件面板：用户类型切换（个人/商家），四个表单字段，底部预估费用。",
+        "hasMarkdown": true,
+        "color": "#D97706",
+        "images": [],
+        "controls": [
+          {
+            "type": "segmented",
+            "attributeId": "ship_user_type",
+            "displayName": "用户类型",
+            "info": "切换寄件表单的用户类型：个人寄件或商家发货。",
+            "initialValue": "personal",
+            "options": [
+              {
+                "label": "个人寄件",
+                "value": "personal"
+              },
+              {
+                "label": "商家发货",
+                "value": "merchant"
+              }
+            ]
+          }
+        ],
+        "createdAt": 1782279389377,
+        "updatedAt": 1782279389377
+      },
+      {
+        "id": "query-card",
+        "index": 4,
+        "title": "价格时效查询面板",
+        "pageId": "home",
+        "locator": {
+          "selectors": [
+            "[data-annotation-id=\"query-card\"]"
+          ],
+          "fingerprint": "section|data-annotation-id=query-card",
+          "path": []
+        },
+        "aiPrompt": "价格时效查询面板：展示从上海到杭州的三档服务方案及价格。",
+        "annotationText": "价格时效查询面板：上海->杭州三档方案——特快专送、标准快递、商家轻量发货。",
+        "hasMarkdown": false,
+        "color": "#D97706",
+        "images": [],
+        "createdAt": 1782279389377,
+        "updatedAt": 1782279389377
+      },
+      {
+        "id": "home-metrics",
+        "index": 5,
+        "title": "服务数据指标行",
+        "pageId": "home",
+        "locator": {
+          "selectors": [
+            "[data-annotation-id=\"home-metrics\"]"
+          ],
+          "fingerprint": "section|data-annotation-id=home-metrics",
+          "path": []
+        },
+        "aiPrompt": "四个关键数据指标卡片，用于建立信任感。",
+        "annotationText": "四个关键数据指标：30min上门、99.2%签收率、200+城市、7x16h客服。",
+        "hasMarkdown": false,
+        "color": "#52c41a",
+        "images": [],
+        "createdAt": 1782279389377,
+        "updatedAt": 1782279389377
+      },
+      {
+        "id": "home-features",
+        "index": 6,
+        "title": "服务优势卡片区",
+        "pageId": "home",
+        "locator": {
+          "selectors": [
+            "[data-annotation-id=\"home-features\"]"
+          ],
+          "fingerprint": "section|data-annotation-id=home-features",
+          "path": []
+        },
+        "aiPrompt": "四项服务优势卡片：上门取件、价格时效查询、轨迹透明、商家发货。",
+        "annotationText": "四项服务优势：上门取件、价格时效一眼看清、轨迹透明异常可追、商家发货更有章法。",
+        "hasMarkdown": false,
+        "color": "#52c41a",
+        "images": [],
+        "createdAt": 1782279389377,
+        "updatedAt": 1782279389377
+      },
+      {
+        "id": "home-solutions",
+        "index": 7,
+        "title": "解决方案双卡片",
+        "pageId": "home",
+        "locator": {
+          "selectors": [
+            "[data-annotation-id=\"home-solutions\"]"
+          ],
+          "fingerprint": "section|data-annotation-id=home-solutions",
+          "path": []
+        },
+        "aiPrompt": "双场景解决方案卡片：个人寄件和小商家发货，各自有受众标签、标题和要点列表。",
+        "annotationText": "左右双卡片分别面向个人寄件和小商家发货，各有独立标题和三个要点。",
+        "hasMarkdown": true,
+        "color": "#52c41a",
+        "images": [],
+        "createdAt": 1782279389377,
+        "updatedAt": 1782279389377
+      },
+      {
+        "id": "home-flow",
+        "index": 8,
+        "title": "寄件流程四步",
+        "pageId": "home",
+        "locator": {
+          "selectors": [
+            "[data-annotation-id=\"home-flow\"]"
+          ],
+          "fingerprint": "section|data-annotation-id=home-flow",
+          "path": []
+        },
+        "aiPrompt": "四步寄件流程：填写信息、获取报价、预约取件、全程追踪。",
+        "annotationText": "四步寄件流程：填写寄收信息 -> 获取报价与时效 -> 预约取件或送到网点 -> 全程追踪与签收。",
+        "hasMarkdown": false,
+        "color": "#722ed1",
+        "images": [],
+        "createdAt": 1782279389377,
+        "updatedAt": 1782279389377
+      },
+      {
+        "id": "home-trust",
+        "index": 9,
+        "title": "信任保障带",
+        "pageId": "home",
+        "locator": {
+          "selectors": [
+            "[data-annotation-id=\"home-trust\"]"
+          ],
+          "fingerprint": "section|data-annotation-id=home-trust",
+          "path": []
+        },
+        "aiPrompt": "三项信任保障：保障承诺、直营网点协同、商家履约管理。",
+        "annotationText": "三项信任保障：保价与签收确认、直营网点数据联动、商家履约管理。",
+        "hasMarkdown": false,
+        "color": "#722ed1",
+        "images": [],
+        "createdAt": 1782279389377,
+        "updatedAt": 1782279389377
+      },
+      {
+        "id": "home-faq",
+        "index": 10,
+        "title": "常见问题 FAQ",
+        "pageId": "home",
+        "locator": {
+          "selectors": [
+            "[data-annotation-id=\"home-faq\"]"
+          ],
+          "fingerprint": "section|data-annotation-id=home-faq",
+          "path": []
+        },
+        "aiPrompt": "首页底部 FAQ 区：四条常见问题覆盖个人下单、商家发货、运费查询和异常处理。",
+        "annotationText": "FAQ 区覆盖四个高频顾虑：个人在线下单、商家批量发货、运费查询、异常处理。",
+        "hasMarkdown": false,
+        "color": "#722ed1",
+        "images": [],
+        "createdAt": 1782279389377,
+        "updatedAt": 1782279389377
+      },
+      {
+        "id": "home-cta",
+        "index": 11,
+        "title": "最终转化 CTA 区",
+        "pageId": "home",
+        "locator": {
+          "selectors": [
+            "[data-annotation-id=\"home-cta\"]"
+          ],
+          "fingerprint": "section|data-annotation-id=home-cta",
+          "path": []
+        },
+        "aiPrompt": "首页底部 CTA 转化区：再次给出立即寄件和咨询商家合作两个按钮。",
+        "annotationText": "首页底部 CTA 区，再次呼应 Hero 区的两个转化入口，提供第二次转化机会。",
+        "hasMarkdown": false,
+        "color": "#1677ff",
+        "images": [],
+        "createdAt": 1782279389377,
+        "updatedAt": 1782279389377
+      },
+      {
+        "id": "terms-content",
+        "index": 12,
+        "title": "服务条款正文区",
+        "pageId": "terms",
+        "locator": {
+          "selectors": [
+            "[data-annotation-id=\"terms-content\"]"
+          ],
+          "fingerprint": "section|data-annotation-id=terms-content",
+          "path": []
+        },
+        "aiPrompt": "服务条款页面：包含六个法律章节。请说明法律文本在快递官网中的必要性。",
+        "annotationText": "服务条款正文区，包含六个法律章节：服务协议、用户权利义务、隐私保护、运费结算、理赔规则、免责声明。",
+        "hasMarkdown": false,
+        "color": "#eb2f96",
+        "images": [],
+        "createdAt": 1782279389377,
+        "updatedAt": 1782279389377
+      },
+      {
+        "id": "help-categories",
+        "index": 13,
+        "title": "帮助分类卡片",
+        "pageId": "help",
+        "locator": {
+          "selectors": [
+            "[data-annotation-id=\"help-categories\"]"
+          ],
+          "fingerprint": "div|data-annotation-id=help-categories",
+          "path": []
+        },
+        "aiPrompt": "帮助中心四大分类卡片：寄件指南、运费与时效、物流追踪、售后与理赔。",
+        "annotationText": "帮助中心四大分类：寄件指南、运费与时效、物流追踪、售后与理赔。每张卡片包含四篇热门文章链接。",
+        "hasMarkdown": false,
+        "color": "#eb2f96",
+        "images": [],
+        "createdAt": 1782279389377,
+        "updatedAt": 1782279389377
+      },
+      {
+        "id": "help-faq",
+        "index": 14,
+        "title": "热门问题 FAQ",
+        "pageId": "help",
+        "locator": {
+          "selectors": [
+            "[data-annotation-id=\"help-faq\"]"
+          ],
+          "fingerprint": "section|data-annotation-id=help-faq",
+          "path": []
+        },
+        "aiPrompt": "帮助中心热门问题 FAQ：修改地址、取消订单、商家优惠和支付方式。",
+        "annotationText": "热问 FAQ：修改收件地址、取消订单、商家批量发货优惠、支持哪些支付方式。",
+        "hasMarkdown": false,
+        "color": "#eb2f96",
+        "images": [],
+        "createdAt": 1782279389377,
+        "updatedAt": 1782279389377
+      },
+      {
+        "id": "contact-methods",
+        "index": 15,
+        "title": "联系方式卡片",
+        "pageId": "contact",
+        "locator": {
+          "selectors": [
+            "[data-annotation-id=\"contact-methods\"]"
+          ],
+          "fingerprint": "div|data-annotation-id=contact-methods",
+          "path": []
+        },
+        "aiPrompt": "三种联系方式：客服电话、总部地址、网点查询。",
+        "annotationText": "三种联系方式：客服电话 400-888-9999、总部地址（上海浦东张江）、网点查询（全国200+城市）。",
+        "hasMarkdown": false,
+        "color": "#eb2f96",
+        "images": [],
+        "createdAt": 1782279389377,
+        "updatedAt": 1782279389377
+      },
+      {
+        "id": "contact-form",
+        "index": 16,
+        "title": "在线留言表单",
+        "pageId": "contact",
+        "locator": {
+          "selectors": [
+            "[data-annotation-id=\"contact-form\"]"
+          ],
+          "fingerprint": "div|data-annotation-id=contact-form",
+          "path": []
+        },
+        "aiPrompt": "在线留言表单：五个字段，提交后客服在1个工作日内回复。",
+        "annotationText": "在线留言表单：姓名、联系电话、邮箱、咨询类型、留言内容。提交按钮为「提交留言」。",
+        "hasMarkdown": false,
+        "color": "#eb2f96",
+        "images": [],
+        "createdAt": 1782279389377,
+        "updatedAt": 1782279389377
+      }
+    ]
+  },
+  "markdownMap": {
+    "home-hero": "# 首屏 Hero 区\n\n## 设计目标\n\n首屏是转化决策的核心区域。Hero 区遵循以下原则：\n\n1. **左侧文案建立认知**：用一句话标题 + 补充说明 + 四个卖点标签，让用户在 5 秒内理解「这是做什么的」\n2. **右侧面板促成行动**：不把 CTA 做成孤立的按钮，而是直接把在线寄件表单和价格查询放在首屏\n3. **双面板设计理由**：上半部分在线寄件入口（高意图用户），下半部分价格时效查询（比价/犹豫用户）\n\n## 信息层级\n\n- H1: 个人寄件更省心，小商家发货更有序\n- 副文案: 用一个首页同时承接个人下单、运费时效查询和商家发货转化\n- 卖点标签: 上门取件 / 价格时效查询 / 商家批量发货 / 签收异常可追\n- CTA: 立即预约寄件（主按钮）+ 查看商家方案（次按钮）",
+    "ship-card": "# 在线寄件表单\n\n## 字段说明\n\n| 字段 | 说明 |\n|------|------|\n| 用户类型 | 切换个人寄件/商家发货 |\n| 寄件城市 | 默认「上海市 徐汇区」 |\n| 收件城市 | 默认「杭州市 西湖区」 |\n| 包裹类型 | 默认「文件 / 小件包裹」 |\n| 预约时间 | 默认「今天 15:00 - 17:00」 |\n\n## 设计要点\n\n- 四个字段占满一行两列网格，视觉紧凑但不拥挤\n- 底部预估费用区域实时反馈，降低提交前的犹豫",
+    "home-solutions": "# 双场景解决方案\n\n## 两类用户\n\n1. **个人寄件用户**：寄文件、退换货、寄礼物，频次低但覆盖面广\n2. **小商家用户**：微商、社区团购、工作室，每天几单到几十单\n\n## 信息架构\n\n- 每张卡片独立展示：受众标签 -> 场景标题 -> 简要说明 -> 三个核心要点\n- 左右并置让两类用户在首屏就能找到自己的路径"
+  },
+  "assetMap": {},
+  "directory": {
+    "nodes": [
+      {
+        "type": "folder",
+        "id": "express-dir",
+        "title": "速达快运官网",
+        "defaultExpanded": true,
+        "children": [
+          {
+            "type": "route",
+            "id": "dir-home",
+            "title": "首页",
+            "route": "home",
+            "payload": {}
+          },
+          {
+            "type": "route",
+            "id": "dir-terms",
+            "title": "服务条款",
+            "route": "terms",
+            "payload": {}
+          },
+          {
+            "type": "route",
+            "id": "dir-help",
+            "title": "帮助中心",
+            "route": "help",
+            "payload": {}
+          },
+          {
+            "type": "route",
+            "id": "dir-contact",
+            "title": "联系我们",
+            "route": "contact",
+            "payload": {}
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "id": "project-docs",
+        "title": "项目文档",
+        "defaultExpanded": false,
+        "children": [
+          {
+            "type": "markdown",
+            "id": "doc-overview",
+            "title": "项目概览",
+            "markdown": "# 速达快运官网首页原型\n\n这是一个快递公司官网首页的高保真原型，同时承接个人寄件和小商家发货两类核心用户。\n\n## 页面结构\n\n- **首页 (home)**：完整 Landing Page\n- **服务条款 (terms)**：六个章节法律文本\n- **帮助中心 (help)**：四大分类 + 热门 FAQ\n- **联系我们 (contact)**：联系方式 + 在线留言\n\n## 技术栈\n\n- React 18 + TypeScript\n- lucide-react 图标库\n- Hash 路由 (useHashPage)"
+          },
+          {
+            "type": "link",
+            "id": "dir-source",
+            "title": "源码 (index.tsx)",
+            "href": "src/prototypes/express-homepage/index.tsx",
+            "target": "self"
+          }
+        ]
+      }
+    ]
+  }
+}
